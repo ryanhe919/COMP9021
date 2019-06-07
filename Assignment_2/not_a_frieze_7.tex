@@ -1,0 +1,27 @@
+\documentclass[10pt]{article}
+\usepackage{tikz}
+\usepackage[margin=0cm]{geometry}
+\pagestyle{empty}
+
+\begin{document}
+
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}[x=0.2cm, y=-0.2cm, thick, purple]
+% North to South lines
+    \draw (0,0) -- (0,5);
+    \draw (20,0) -- (20,5);
+% North-West to South-East lines
+% West to East lines
+    \draw (0,0) -- (20,0);
+    \draw (0,1) -- (20,1);
+    \draw (0,2) -- (20,2);
+    \draw (0,3) -- (20,3);
+    \draw (0,4) -- (20,4);
+    \draw (0,5) -- (20,5);
+% South-West to North-East lines
+\end{tikzpicture}
+\end{center}
+\vspace*{\fill}
+
+\end{document}
